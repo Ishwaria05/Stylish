@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+</head>
+<body>
+    <div class="container">
+        <h1>LOGIN</h1>
+        <div class="input">
+          <label for="email">Email</label>
+          <input id="email" type="text" required />
+          <span id="email_error"></span>
+          <label for="password">Password</label>
+          <input id="password" type="text"required />
+          <span id="password_error"></span>
+        </div>
+        <div class="fp"><a href="./forgot password.html">Forgot Password</a></div>
+        <button onclick="validate()"> Login</button>
+      </div>
+      <footer>
+        <p>&copy; 2024 STYLISH.All rights reserved.</p>
+      </footer>
+    <script src="./js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css/registration.css">
+    <script src="./js/registration.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./img/icon 1.png" alt="">
+            <ul>
+                <li class="home">Home</li>
+                <li class="men">Men</li>
+                <li class="women">Women</li>
+                <li class="kids">Kids</li>
+                <li class="homeliving">Home&Living</li>
+                <li class="beauty">Beauty</li>
+            </ul>
+        </div>
+        <div class="search">
+            <input  placeholder="Search for products, brands and more"  value="">
+    </div>
+</nav>
+  <body>
+    <div class="container">
+      <h1>REGISTRATION</h1>
+      <div class="detail">
+        <label for="name">Name:</label> 
+        <input type="text" id="name" name="name">
+        <span id="name_error"></span><br><br>
+        <label for="email">Email</label>
+        <input id="email" type="text" required />
+        <span id="email_error"></span>
+      </div>
+      <div class="detail">
+        <label for="Phonenumber"> Phone:</label>
+        <input type="tel" id="Phonenumber" name="Phonenumber" placeholder="Phonenumber" required>
+        <span id="Phonenumber_error"></span><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <span id="password_error"></span><br><br>
+        <label for="address">Address</label>
+        <input type="address" id="address">
+        <span id="address_error"></span>
+    </div>
+      <button type="submit"   onclick="submit()">sign up</button>
+      <div class="login">
+        <p>I already have an account <a href="./login.html">Login</a></p>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 STYLISH.All rights reserved.</p>
+    </footer>
+  </body>
+</html>

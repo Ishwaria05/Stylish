@@ -1,0 +1,65 @@
+body{
+    background-image: url(../img/OIP.jpeg);
+    background-size: cover;
+}
+.container{
+    width:400px;
+    height:260px;
+    margin:20vh auto 0 auto;
+    padding:20px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid goldenrod;
+}
+h1{
+    text-align: center;
+}
+.input{
+    display:flex;
+    flex-direction: column;
+}
+.input input{
+    border:2px solid goldenrod;
+    border-radius:4px;
+    display:block;
+    font-size:12px;
+    padding:10px;
+    width:380px;
+}
+button{
+    padding:10px;
+    margin-top:10px;
+    margin-left: 90px;
+    width:50%;
+    border-radius: 4px;
+    color:black;
+    background-color: white;
+    border:2px solid goldenrod;
+
+}
+ .fp {
+    margin-left: 250px;
+    padding-top: 15px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 160px;
+  }
+  footer a {
+    color: #caf50c;
+    text-decoration: none;
+  }
+  footer p{
+    margin-left: 50px;
+  }
